@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c628d4ce-bff7-41c2-aede-5847d3f90117" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/food/ordering/system/domain/entity/AggregateRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/food/ordering/system/domain/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/food/ordering/system/domain/event/DomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/food/ordering/system/domain/exception/DomainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/food/ordering/system/domain/valueObject/BaseId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/food/ordering/system/domain/valueObject/CustomerId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/food/ordering/system/domain/valueObject/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/food/ordering/system/domain/valueObject/OrderId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/food/ordering/system/domain/valueObject/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/food/ordering/system/domain/valueObject/ProductId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/food/ordering/system/domain/valueObject/RestaurantId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-container/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-data-layer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/event/OrderCancelledEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/event/OrderCreatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/event/OrderEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/event/OrderPaidEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/exception/OrderDomainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/valueObject/OrderItemId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/valueObject/StreetAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/valueObject/TrackingId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-message/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EfS1fc5MBXTbzFQgOs9wsw2Hqj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/order-service/order-domain" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c628d4ce-bff7-41c2-aede-5847d3f90117" name="Changes" comment="" />
+      <created>1662984932910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662984932910</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
