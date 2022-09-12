@@ -3,14 +3,14 @@ package com.food.ordering.system.domain.valueObject;
 import java.util.Objects;
 
 public abstract class BaseId <T>{
-    private final T id;
+    private final T value;
 
-    protected BaseId(T id) {
-        this.id = id;
+    protected BaseId(T value) {
+        this.value = value;
     }
 
-    public T getId() {
-        return id;
+    public T getValue() {
+        return value;
     }
 
     @Override
@@ -18,11 +18,11 @@ public abstract class BaseId <T>{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         BaseId<?> baseId = (BaseId<?>) o;
-        return id.equals(baseId.id);
+        return value.equals(baseId.value);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id);
+        return Objects.hash(value);
     }
 }

@@ -4,9 +4,10 @@ import com.food.ordering.system.domain.entity.AggregateRoot;
 import com.food.ordering.system.domain.valueObject.RestaurantId;
 
 import java.util.List;
+import java.util.Map;
 
 public class Restaurant extends AggregateRoot<RestaurantId> {
-    private final List<Product> products;
+    private final Map<String, Product> products;
     private boolean active;
 
     private Restaurant(Builder builder) {
@@ -19,10 +20,17 @@ public class Restaurant extends AggregateRoot<RestaurantId> {
         return new Builder();
     }
 
+    public Map<String, Product> getProducts() {
+        return products;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
 
     public static final class Builder {
         private RestaurantId restaurantId;
-        private List<Product> products;
+        private Map<String, Product> products;
         private boolean active;
 
         private Builder() {
@@ -33,7 +41,7 @@ public class Restaurant extends AggregateRoot<RestaurantId> {
             return this;
         }
 
-        public Builder products(List<Product> products) {
+        public Builder products(Map<String, Product> products) {
             this.products = products;
             return this;
         }
